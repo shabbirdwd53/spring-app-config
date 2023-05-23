@@ -11,6 +11,7 @@ okta:
   oauth2:
     issuer: https://dev-15585796.okta.com/oauth2/default
     audience: api://default
+    redirect-uri: http://localhost:9090/login/oauth2/code/okta
 spring:
   zipkin:
     baseUrl: http://zipkin-svc:9411
